@@ -8,5 +8,12 @@ print(ng[3] + " is my twinnn")
 print(ng[4] + " lost his job because he didn't want to cut his hair")
 print(ng[5] + " and " + ng[6] + " have said with their full chest that they hate men")
 print(ng[-1] + " is an S-tier chimney smoker")
-
-ng[2] = "Maria" # modifying the value in a list
+print(); print(); print()
+print(ng)
+ng[2] = "Maria" # modifying the value of an element in a list
+ng.append("Sampah") # adding an element to end of a list
+print(ng)
+ng.insert(2,"Shirley") # adding an element to a specific index of a list
+print(ng)
+del ng[-1] # deleting an element from a specific inde3x
+print(ng)

@@ -17,3 +17,7 @@ ng.insert(2,"Shirley") # adding an element to a specific index of a list
 print(ng)
 del ng[-1] # deleting an element from a specific inde3x
 print(ng)
+print("sometimes in the life i am too competitive")
+name = "Mbappe"
+if(name=="Mbappe"): 
+    print("he is faster than the cars")
